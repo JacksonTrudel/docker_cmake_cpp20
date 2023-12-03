@@ -1,0 +1,7 @@
+services:
+  cmake_cpp20:
+    container_name: cmake_cpp20
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    image: cmake_cpp20:latest
